@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
             renderFraction: function (currentClass, totalClass) {
                 return '<div class="pagination">' +
                     '<span class="' + currentClass + '"></span>' +
-                    '<img src="../img/line.svg">' +
+                    '<img src="img/line.svg">' +
                     '<span class="' + totalClass + '"></span>' + '</div>';
             }
         },
